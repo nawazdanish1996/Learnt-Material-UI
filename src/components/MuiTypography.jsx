@@ -11,6 +11,7 @@ function MuiTypography() {
 
   return (
     <div data-aos="fade-up">
+        <Typography variant='h4'>h1-h6, p, small</Typography>
         <Typography color='info' variant="h1">H1 Heading</Typography>
         <Typography variant="h2">H2 Heading</Typography>
         <Typography variant="h3">H3 Heading</Typography>
