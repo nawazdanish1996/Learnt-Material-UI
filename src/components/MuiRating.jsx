@@ -6,9 +6,11 @@ import {
   Typography,
   Rating,
 } from "@mui/material";
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 function MuiRating() {
-  const [rat, setRat] = useState(false);
+  const [rat, setRat] = useState(null);
   console.log(rat);
 
   const handlerRating = (e) =>{
@@ -22,7 +24,23 @@ function MuiRating() {
     <Stack spacing={2} data-aos="fade-up" style={{border: "1px solid red"}}>
       <Typography variant='h4'>Rating {rat}</Typography>
       <Stack>
-        <Rating onClick={handlerRating} checked={rat} value={rat} />
+        <Rating 
+        size="medium" 
+        precision={0.5} 
+        onClick={handlerRating} 
+        checked={rat} 
+        value={rat} />
+      </Stack>
+      <Stack>
+        <Rating 
+        icon={<FavoriteIcon size="inherit" color="error" />} 
+        emptyIcon={<FavoriteBorderIcon size="inherit" />}
+        precision={0.5} 
+        onClick={handlerRating} 
+        checked={rat} 
+        value={rat}
+        highlightSelectedOnly
+        />
       </Stack>
     </Stack>
   )

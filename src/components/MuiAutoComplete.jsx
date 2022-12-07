@@ -1,6 +1,10 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
+import {
+  Stack,
+  Typography,
+} from "@mui/material";
 
 function MuiAutoComplete() {
     useEffect(()=>{
@@ -8,7 +12,9 @@ function MuiAutoComplete() {
     },[])
     
   return (
-    <div data-aos="fade-up">MuiButton</div>
+    <Stack data-aos="fade-up">
+      <Typography variant='h4'>Auto Complete</Typography>
+    </Stack>
   )
 }
 
