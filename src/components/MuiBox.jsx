@@ -14,6 +14,27 @@ function MuiBox() {
   return (
     <Box data-aos="fade-up">
       <Typography variant="h4">Box/Layout</Typography>
+
+      {/* span tag */}
+      <Box component="span" 
+        sx={{
+          backgroundColor: "primary.main",
+          color: "white",
+          height:"250px",
+          width:  "250px",
+          padding: '16px',
+          '&:hover':{
+            backgroundColor: "primay.info"
+          },
+        }}
+      >
+        Mister
+      </Box>
+
+      <Box p={5} bgcolor="success.light" displa="flex" height="100px" width="100px">
+        wefwefewef
+      </Box>
+
     </Box>
   )
 }

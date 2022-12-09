@@ -4,6 +4,8 @@ import "aos/dist/aos.css";
 import {
   Stack,
   Typography,
+  ImageList,
+  ImageListItem,
 } from "@mui/material";
 
 function MuiImageList() {
@@ -13,7 +15,18 @@ function MuiImageList() {
     
   return (
     <Stack data-aos="fade-up">
-      <Typography variant='h4'>Auto Complete</Typography>
+      <Typography variant='h4'>Image List</Typography>
+
+      <Stack spacing={4}>
+        <ImageList
+          sx={{width: "500px", height:"450px"}}
+          rowHeight={164}
+          >
+          <ImageListItem
+            image="https://source.unsplash.com/random"
+          />
+        </ImageList>
+      </Stack>
     </Stack>
   )
 }

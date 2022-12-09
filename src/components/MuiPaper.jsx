@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import {
-  Stack,
   Typography,
+  Paper,
 } from "@mui/material";
 
 function MuiPaper() {
@@ -12,9 +12,12 @@ function MuiPaper() {
     },[])
     
   return (
-    <Stack data-aos="fade-up">
-      <Typography variant='h4'>Auto Complete</Typography>
-    </Stack>
+    <Paper elevation={4} data-aos="fade-up" sx={{padding: "32px"}}>
+      <Typography variant='h4'>Paper</Typography>
+      <Typography>write Paper instead of React.Fragment</Typography>
+
+      <Paper>1</Paper>
+    </Paper>
   )
 }
 

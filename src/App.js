@@ -10,12 +10,12 @@
 // import MuiSwitch from "./components/MuiSwitch";
 // import MuiRating from "./components/MuiRating";
 // import MuiAutoComplete from "./components/MuiAutoComplete";
-import MuiBox from "./components/MuiBox";
-import MuiStack from "./components/MuiStack";
-import MuiGrid from "./components/MuiGrid";
-import MuiPaper from "./components/MuiPaper";
-import MuiCard from "./components/MuiCard";
-import MuiAccordion from "./components/MuiAccordion";
+// import MuiBox from "./components/MuiBox";
+// import MuiStack from "./components/MuiStack";
+// import MuiGrid from "./components/MuiGrid";
+// import MuiPaper from "./components/MuiPaper";
+// import MuiCard from "./components/MuiCard";
+// import MuiAccordion from "./components/MuiAccordion";
 import MuiImageList from "./components/MuiImageList";
 // 21-30
 import MuiNavbar from "./com21-30/MuiNavbar";
@@ -53,7 +53,7 @@ import MuiCustomizingTheme from "./com41-46End/MuiCustomizingTheme";
 
 function App() {
   return (
-    <div style={{textAlign: "center"}}>
+    <div style={{textAlign: "center", background: "white"}}>
       {/* <MuiTypography /> */}
       {/* <MuiButton /> */}
       {/* <MuiButtonGroup /> */}
@@ -65,12 +65,12 @@ function App() {
       {/* <MuiSwitch /> */}
       {/* <MuiRating /> */}
       {/* <MuiAutoComplete /> */}
-      <MuiBox />
-      <MuiStack />
-      <MuiGrid />
-      <MuiPaper />
-      <MuiCard />
-      <MuiAccordion />
+      {/* <MuiBox /> */}
+      {/* <MuiStack /> */}
+      {/* <MuiGrid /> */}
+      {/* <MuiPaper /> */}
+      {/* <MuiCard /> */}
+      {/* <MuiAccordion /> */}
       <MuiImageList />
 
       {/* 21-30 */}
