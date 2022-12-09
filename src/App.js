@@ -25,13 +25,14 @@
 // import MuiDrawer from "./com21-30/MuiDrawer";
 // import MuiSpeedDial from "./com21-30/MuiSpeedDial";
 // import MuiBottomNavigation from "./com21-30/MuiBottomNavigation";
-import MuiAvatar from "./com21-30/MuiAvatar";
-import MuiBadge from "./com21-30/MuiBadge";
-import MuiList from "./com21-30/MuiList";
+// import MuiAvatar from "./com21-30/MuiAvatar";
+// import MuiBadge from "./com21-30/MuiBadge";
+// import MuiList from "./com21-30/MuiList";
+
 // 31-40
-import MuiChip from "./com31-40/MuiChip";
-import MuiTooltip from "./com31-40/MuiTooltip";
-import MuiTable from "./com31-40/MuiTable";
+// import MuiChip from "./com31-40/MuiChip";
+// import MuiTooltip from "./com31-40/MuiTooltip";
+// import MuiTable from "./com31-40/MuiTable";
 import MuiAlert from "./com31-40/MuiAlert";
 import MuiSnackbar from "./com31-40/MuiSnackbar";
 import MuiDialog from "./com31-40/MuiDialog";
@@ -39,6 +40,7 @@ import MuiProgress from "./com31-40/MuiProgress";
 import MuiSkeleton from "./com31-40/MuiSkeleton";
 import MuiLoadingButton from "./com31-40/MuiLoadingButton";
 import MuiDateAndTimePicker from "./com31-40/MuiDateAndTimePicker";
+
 // 41-46 ends of course
 import MuiDateRangePicker from "./com41-46End/MuiDateRangePicker";
 import MuiTabs from "./com41-46End/MuiTabs";
@@ -81,14 +83,14 @@ function App() {
       {/* <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
       {/* <MuiBottomNavigation /> */}
-      <MuiAvatar />
-      <MuiBadge />
-      <MuiList />
+      {/* <MuiAvatar /> */}
+      {/* <MuiBadge /> */}
+      {/* <MuiList /> */}
 
       {/* 31-40 */}
-      <MuiChip />
-      <MuiTooltip />
-      <MuiTable />
+      {/* <MuiChip /> */}
+      {/* <MuiTooltip /> */}
+      {/* <MuiTable /> */}
       <MuiAlert />
       <MuiSnackbar />
       <MuiDialog />

@@ -2,9 +2,11 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import {
-  Stack,
+  Tooltip,
   Typography,
+  IconButton,
 } from "@mui/material";
+import DeleteIcon from "@mui/icons-material/Delete";
 
 function MuiTooltip() {
     useEffect(()=>{
@@ -12,9 +14,20 @@ function MuiTooltip() {
     },[])
     
   return (
-    <Stack data-aos="fade-up">
-      <Typography variant='h4'>Auto Complete</Typography>
-    </Stack>
+    <>
+    <Typography variant='h4'>Tooltip</Typography>
+    <Tooltip 
+      leaveDelay={300}
+      enterDelay={500} 
+      title='delete' 
+      placement="right" 
+      arrow data-aos="fade-up">
+
+      <IconButton>
+        <DeleteIcon />
+      </IconButton>
+    </Tooltip>
+    </>
   )
 }
 

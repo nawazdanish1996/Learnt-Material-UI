@@ -13,7 +13,7 @@ function MuiAlert() {
     
   return (
     <Stack data-aos="fade-up">
-      <Typography variant='h4'>Auto Complete</Typography>
+      <Typography variant='h4'>Alert</Typography>
     </Stack>
   )
 }
