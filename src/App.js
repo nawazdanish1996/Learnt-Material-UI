@@ -16,15 +16,15 @@
 // import MuiPaper from "./components/MuiPaper";
 // import MuiCard from "./components/MuiCard";
 // import MuiAccordion from "./components/MuiAccordion";
-import MuiImageList from "./components/MuiImageList";
+// import MuiImageList from "./components/MuiImageList";
 // 21-30
-import MuiNavbar from "./com21-30/MuiNavbar";
-import MuiMenu from "./com21-30/MuiMenu";
-import MuiLink from "./com21-30/MuiLink";
-import MuiBreadcrumbs from "./com21-30/MuiBreadcrumbs";
-import MuiDrawer from "./com21-30/MuiDrawer";
-import MuiSpeedDial from "./com21-30/MuiSpeedDial";
-import MuiBottomNavigation from "./com21-30/MuiBottomNavigation";
+// import MuiNavbar from "./com21-30/MuiNavbar";
+// import MuiMenu from "./com21-30/MuiMenu";
+// import MuiLink from "./com21-30/MuiLink";
+// import MuiBreadcrumbs from "./com21-30/MuiBreadcrumbs";
+// import MuiDrawer from "./com21-30/MuiDrawer";
+// import MuiSpeedDial from "./com21-30/MuiSpeedDial";
+// import MuiBottomNavigation from "./com21-30/MuiBottomNavigation";
 import MuiAvatar from "./com21-30/MuiAvatar";
 import MuiBadge from "./com21-30/MuiBadge";
 import MuiList from "./com21-30/MuiList";
@@ -71,16 +71,16 @@ function App() {
       {/* <MuiPaper /> */}
       {/* <MuiCard /> */}
       {/* <MuiAccordion /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
 
       {/* 21-30 */}
-      <MuiNavbar />
-      <MuiMenu />
-      <MuiLink />
-      <MuiBreadcrumbs />
-      <MuiDrawer />
-      <MuiSpeedDial />
-      <MuiBottomNavigation />
+      {/* <MuiNavbar /> */}
+      {/* <MuiMenu /> */}
+      {/* <MuiLink /> */}
+      {/* <MuiBreadcrumbs /> */}
+      {/* <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      {/* <MuiBottomNavigation /> */}
       <MuiAvatar />
       <MuiBadge />
       <MuiList />

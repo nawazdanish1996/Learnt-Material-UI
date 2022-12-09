@@ -12,6 +12,149 @@ function MuiImageList() {
     useEffect(()=>{
       Aos.init({duration: 1000});
     },[])
+
+    const arr = [
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img1'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img2'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img1'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img2'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img1'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img2'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img1'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img2'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img1'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img2'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img1'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img2'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img1'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img2'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+      {
+        img: 'https://source.unsplash.com/random',
+        title: 'img3'
+      },
+    ]
     
   return (
     <Stack data-aos="fade-up">
@@ -20,11 +163,19 @@ function MuiImageList() {
       <Stack spacing={4}>
         <ImageList
           sx={{width: "500px", height:"450px"}}
-          rowHeight={164}
+          gap={8}
+          cols={5}
+          variant="woven"
           >
-          <ImageListItem
-            image="https://source.unsplash.com/random"
-          />
+            {
+              arr.map((val, ind)=>{
+                return(
+                    <ImageListItem key={ind}>
+                      <img loading="lazy" src={val.img} alt={val.title} />
+                    </ImageListItem>
+                  )
+              })
+            }
         </ImageList>
       </Stack>
     </Stack>
