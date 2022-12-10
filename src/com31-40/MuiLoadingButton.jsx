@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+import {
+  Stack,
+  Typography,
+} from "@mui/material";
 
 function MuiLoadingButton() {
   return (
-    <div>MuiLoadingButton</div>
+    <Stack>
+      <Typography variant='h4'>Loading Button</Typography>
+    </Stack>
   )
 }
 

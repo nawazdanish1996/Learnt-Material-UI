@@ -33,11 +33,11 @@
 // import MuiChip from "./com31-40/MuiChip";
 // import MuiTooltip from "./com31-40/MuiTooltip";
 // import MuiTable from "./com31-40/MuiTable";
-import MuiAlert from "./com31-40/MuiAlert";
-import MuiSnackbar from "./com31-40/MuiSnackbar";
-import MuiDialog from "./com31-40/MuiDialog";
-import MuiProgress from "./com31-40/MuiProgress";
-import MuiSkeleton from "./com31-40/MuiSkeleton";
+// import MuiAlert from "./com31-40/MuiAlert";
+// import MuiSnackbar from "./com31-40/MuiSnackbar";
+// import MuiDialog from "./com31-40/MuiDialog";
+// import MuiProgress from "./com31-40/MuiProgress";
+// import MuiSkeleton from "./com31-40/MuiSkeleton";
 import MuiLoadingButton from "./com31-40/MuiLoadingButton";
 import MuiDateAndTimePicker from "./com31-40/MuiDateAndTimePicker";
 
@@ -91,11 +91,11 @@ function App() {
       {/* <MuiChip /> */}
       {/* <MuiTooltip /> */}
       {/* <MuiTable /> */}
-      <MuiAlert />
-      <MuiSnackbar />
-      <MuiDialog />
-      <MuiProgress />
-      <MuiSkeleton />
+      {/* <MuiAlert /> */}
+      {/* <MuiSnackbar /> */}
+      {/* <MuiDialog /> */}
+      {/* <MuiProgress /> */}
+      {/* <MuiSkeleton /> */}
       <MuiLoadingButton />
       <MuiDateAndTimePicker />
 
