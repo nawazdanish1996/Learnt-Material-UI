@@ -1,10 +1,21 @@
 # Learning-Material-UI
 
 Material UI install:
-npm install @mui/material @emotion/react @emotion/styled
+npm i @mui/material @emotion/react @emotion/styled @mui/icons-material @mui/lab
 
 MUI icons install:
 npm install @mui/icons-material
+
+MUI lab package:
+npm install @mui/lab
+https://www.npmjs.com/package/@mui/lab
+npm install @mui/x-date-pickers
+https://www.npmjs.com/package/@mui/x-date-pickers
+npm install date-fns
+
+Date and  time picker:
+npm i dayjs
+https://www.npmjs.com/package/dayjs
 
 Icons:
 https://mui.com/material-ui/material-icons/?query=delete

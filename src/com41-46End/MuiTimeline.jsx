@@ -1,8 +1,42 @@
-import React from 'react'
+import React from 'react';
+import {
+  Stack,
+  Typography,
+  Timeline,
+  TimelineItem,
+  TimelineSeparator,
+  TimelineConnector,
+  TimelineContent,
+  TimelineDot,
+} from "@mui/material";
 
 function MuiTimeline() {
   return (
-    <div>MuiTiimeline</div>
+    <Stack>
+      <Typography variant='h4'>Timeline</Typography>
+
+      <Timeline>
+        <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              City A
+            </TimelineContent>
+        </TimelineItem>
+
+        <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent>
+              City B
+            </TimelineContent>
+        </TimelineItem>
+      </Timeline>
+    </Stack>
   )
 }
 
