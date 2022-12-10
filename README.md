@@ -26,3 +26,5 @@ Learning src: https://www.youtube.com/playlist?list=PLC3y8-rFHvwh-K9mDlrrcDywl7C
 code url: https://github.com/nawazdanish1996/Learning-Material-UI
 
 hosted url: https://nawazdanish1996.github.io/Learning-Material-UI/
+
+https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/
