@@ -27,4 +27,4 @@ code url: https://github.com/nawazdanish1996/Learning-Material-UI
 
 hosted url: https://nawazdanish1996.github.io/Learning-Material-UI/
 
-https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/
+https://github.com/gitname/react-gh-pages
