@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Learnt-Material-UI/static/css/main.969c8c4e.css",
+    "main.js": "/Learnt-Material-UI/static/js/main.2dd9db59.js",
+    "static/js/787.30dcabdb.chunk.js": "/Learnt-Material-UI/static/js/787.30dcabdb.chunk.js",
+    "index.html": "/Learnt-Material-UI/index.html",
+    "main.969c8c4e.css.map": "/Learnt-Material-UI/static/css/main.969c8c4e.css.map",
+    "main.2dd9db59.js.map": "/Learnt-Material-UI/static/js/main.2dd9db59.js.map",
+    "787.30dcabdb.chunk.js.map": "/Learnt-Material-UI/static/js/787.30dcabdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.969c8c4e.css",
+    "static/js/main.2dd9db59.js"
+  ]
+}
